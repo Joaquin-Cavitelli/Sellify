@@ -1,0 +1,5 @@
+{
+  "name": "Rastreador de Comisiones de Ventas",
+  "description": "Una aplicación para que los profesionales de ventas realicen un seguimiento de sus ventas y comisiones. Registre ventas, vea el historial, analice las ganancias con resúmenes y visualice el rendimiento con gráficos mensuales.",
+  "requestFramePermissions": []
+}
