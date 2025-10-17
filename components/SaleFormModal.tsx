@@ -46,8 +46,8 @@ export const SaleFormModal: React.FC<SaleFormModalProps> = ({ isOpen, onClose, o
       setError('Todos los campos son obligatorios.');
       return;
     }
-    if (isNaN(parsedAmount) || parsedAmount <= 0) {
-      setError('El monto debe ser un número positivo.');
+    if (isNaN(parsedAmount) || parsedAmount === 0) {
+      setError('El monto no puede ser cero.');
       return;
     }
     if (isNaN(parsedCommissionRate) || parsedCommissionRate < 0 || parsedCommissionRate > 100) {
